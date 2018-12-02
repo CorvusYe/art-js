@@ -3,8 +3,8 @@
 一个在用法上类似于 AngularJS 的前端框架，但是远远不及 AngularJS 强大，只是自己写框架的第一次尝试
 ## 预览方式
 ```bat
-git clone https://github.com/CorvusYe/ArtJS.git
-cd ArtJS
+git clone https://github.com/CorvusYe/art-js.git
+cd art-js
 npm install
 npm run build
 node scripts/web-server.js
