@@ -1,0 +1,22 @@
+{
+  "name": "webapp",
+  "version": "1.0.0",
+  "description": "欢迎来到滴思协作。",
+  "private": true,
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-cli": "^6.0.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.5",
+    "babel-preset-es2015": "^6.24.1"
+  },
+  "scripts": {
+    "build": "babel app -d dist",
+    "start": "node scripts/web-server.js"
+  },
+  "dependencies": {
+    "art-template": "^4.13.2",
+    "codemirror": "3",
+    "editor.md": "^1.5.0",
+    "feather-icons": "^4.9.0"
+  }
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="/node_modules/editor.md/css/editormd.min.css" rel="stylesheet" />
+    <link href="/node_modules/editor.md/lib/codemirror/addon/dialog/dialog.css" rel="stylesheet" />
+    <link href="/node_modules/editor.md/lib/codemirror/addon/search/matchesonscrollbar.css" rel="stylesheet" />
+    <link href="./style.css" type="text/css" rel="stylesheet"></head>
+    <script src="/node_modules/editor.md/examples/js/jquery.min.js"></script>
+    <script src="/node_modules/editor.md/lib/codemirror/codemirror.min.js"></script>
+    <script src="/node_modules/editor.md/lib/marked.min.js"></script>
+    <script src="/node_modules/editor.md/lib/prettify.min.js"></script>
+    <script src="/node_modules/editor.md/lib/raphael.min.js"></script>
+    <script src="/node_modules/editor.md/lib/underscore.min.js"></script>
+    <script src="/node_modules/editor.md/lib/sequence-diagram.min.js"></script>
+    <script src="/node_modules/editor.md/lib/flowchart.min.js"></script>
+    <script src="/node_modules/editor.md/lib/jquery.flowchart.min.js"></script>
+    <script src="/node_modules/editor.md/editormd.js"></script>
+    <title></title>
+</head>
+<body>
+    <auth></auth>
+</body>
+<script>requirejs={baseUrl: './node_modules'}</script>
+<script data-main="../dist/main" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.js"></script>
+<script>
+    window.baseUrl = "http://localhost:8080/api";
+</script>
+</html>
